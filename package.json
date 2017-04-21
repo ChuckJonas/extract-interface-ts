@@ -1,0 +1,21 @@
+{
+  "name": "apex-parser-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -watch -p ./",
+    "antlr4ts": "antlr4ts -visitor /Users/jonas/Documents/code/apex-parser-ts/src/grammar/Java.g4"
+  },
+  "dependencies": {
+    "antlr4ts": "^0.4.0-alpha.4"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.40",
+    "antlr4ts-cli": "^0.4.0-alpha.4",
+    "typescript": "^2.0.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
