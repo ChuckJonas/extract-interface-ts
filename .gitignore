@@ -1,0 +1,4 @@
+out
+node_modules
+src/grammar/*.ts
+src/grammar/*.tokens
