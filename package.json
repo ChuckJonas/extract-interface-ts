@@ -1,9 +1,10 @@
 {
-  "name": "apex-parser-ts",
+  "name": "extract-interface-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Given a java class, it will generate a Interface.  This was ported from the Definitive Antlr 4 Reference and only intened for demo purposes.",
   "main": "./out/src/index",
   "scripts": {
+    "install": "npm run antlr4ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc -watch -p ./",
     "antlr4ts": "antlr4ts -visitor /Users/jonas/Documents/code/apex-parser-ts/src/grammar/Java.g4"
